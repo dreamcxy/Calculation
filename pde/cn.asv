@@ -1,0 +1,9 @@
+function [] = cn(J)
+% J means the number of grid points
+clear all;
+miu = 0.4 
+T = 1; % System size
+deltax = 1/J; %Grid spacing
+
+tstep = ceil(1/(miu*(deltax^2))); %
+%Set initial and boundary conditions
