@@ -1,2 +1,6 @@
 function[val] = f2(x)
-val = abs(pi-x);
+if x < 0
+    val = x + pi;
+else 
+    val = pi - x;
+end
